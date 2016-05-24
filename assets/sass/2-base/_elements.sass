@@ -1,0 +1,68 @@
+// BODY
+//---------------------------------------
+body
+  background-color: white
+  font-size: em(14)
+  line-height: 1.6
+  font-family: 'Roboto', sans-serif
+  color: $black
+  margin: 0
+  padding: 0
+  -webkit-font-smoothing: antialiased
+  -webkit-text-size-adjust: 100%
+
+img
+  min-width: 100%
+  width: 100%
+
+ul
+  list-style-type: none
+  padding: 0
+
+// LINK
+//---------------------------------------
+a
+  color: inherit
+  text-decoration: none
+  outline: 0
+  // border-bottom: 2px solid hsla(0,0%,0%,0.15)
+
+  &:hover,
+  &:focus
+    color: inherit
+    border-bottom-color: hsla(0,0%,0%,0.3)
+
+
+
+// BUTTON and FORM
+//---------------------------------------
+input[type='text'],
+input[type='email'],
+textarea
+
+  &:focus,
+  &:active
+   outline: none
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]
+  display: inline-block
+  padding: 5px 20px
+  color: $black
+  text-align: center
+  text-decoration: none
+  white-space: nowrap
+  background-color: transparent
+  // border: 1px solid $black
+  cursor: pointer
+  box-sizing: border-box
+
+  &:hover,
+  &:active,
+  &:focus
+    color: inherit
+    border-color: #888
+    outline: 0

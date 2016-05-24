@@ -1,0 +1,33 @@
+
+- var normalize = true
+
+
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  
+  title
+    block title
+      | Page Title
+      
+  block link_tegs
+  
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css')
+  
+    if normalize
+      link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css")
+      
+    
+    link(rel="stylesheet", href="assets/css/main.css")
+    
+    
+body
+  
+  block includes
+
+  
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js')
+  script(src='assets/js/function.js')
+  
